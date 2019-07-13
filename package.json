@@ -1,0 +1,36 @@
+{
+  "dependencies": {
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "next": "^9.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "styled-components": "^4.3.2"
+  },
+  "name": "Nextjs9-practice",
+  "description": "Practice project for changing in next.js 9 version",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^12.6.2",
+    "@types/react": "^16.8.23",
+    "babel-plugin-styled-components": "^1.10.6",
+    "typescript": "^3.5.3"
+  },
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bkm412/Nextjs9-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bkm412/Nextjs9-practice/issues"
+  },
+  "homepage": "https://github.com/bkm412/Nextjs9-practice#readme"
+}
