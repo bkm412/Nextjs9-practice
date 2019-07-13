@@ -3,6 +3,25 @@ Practice project for changing in next.js 9 version
 
 Next.js 9 + typescript + styled components
 
+# 프로젝트 설명
+## 실행방법
+```
+#package install
+$ yarn
+or
+$ npm install
+
+#start local server
+$ yarn dev 
+or
+$ npm run dev
+```
+
+## 주요 기능
+- Next.js 9에서 제공하는 API route를 사용해서 API 제공 ( http://localhost:3000/api/user, http://localhost:3000/api/user/:id)
+- Next.js 9에서 제공하는 기본 타입스크립트 기능 사용 ( next dev )
+- Next.js 9에서 제공하는 dynamic route 사용 ( http://localhost:3000/user, http://localhost:3000/user/:id )
+
 # 주요 변경점
 ## dynamic route 기본 제공
 
