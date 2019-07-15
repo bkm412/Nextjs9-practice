@@ -1,7 +1,7 @@
-import * as express from 'express'
+import {NextApiRequest, NextApiResponse} from 'next'
 import data from '../../../assets/sampleData.json';
 
-export default (req : express.Request, res : express.Reponse) => {
+export default (req : NextApiRequest, res : NextApiResponse) => {
     const {query : {id : queryId}} = req;
     if(isNaN(+queryId)){
         res.status(400);

@@ -14,7 +14,7 @@ interface UserPage<Props> extends React.FC<Props> {
 }
 
 
-const User: UserPage<Props> = ({data = []}) => {
+const Index: UserPage<Props> = ({data = []}) => {
     return (
         <Wrapper>
             <h2>User List</h2>
@@ -31,13 +31,13 @@ const User: UserPage<Props> = ({data = []}) => {
     )
 }
 
-User.getInitialProps = async () => {
+Index.getInitialProps = async () => {
     const result: any = await axios.get('http://localhost:3000/api/user');
     const data = result ? result.data : [];
     return {data}
 }
 
-export default User;
+export default Index;
 
 const Wrapper = styled.div`
     width: 300px;
