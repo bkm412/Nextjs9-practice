@@ -98,3 +98,11 @@ export default function handle(req, res) {
 
 api콜 또한 dynamic router로 구현이 가능하므로 `/user/:id` 와 같은 API를 쉽게 구현할 수 있습니다.
 
+## Link prefetch 자동화
+
+별도로 `<Link>` 태그에 `prefetch` attribute를 추가해야 작동했던 prefetch 기능이 자동으로 작동하도록 변경되었습니다.
+
+이제는 viewport 안에 Link태그가 존재하는 경우 자동으로 prefetch를 해서 빠른 페이지 이동을 할 수 있도록 해줍니다.
+
+만약 이 기능을 끄고 싶다면 `<Link prefetch={false}>`처럼 prefetch기능을 비활성화 할 수 있습니다. 
+
